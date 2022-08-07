@@ -1,15 +1,16 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@astrojs/vercel': ^0.4.0
-  '@commitlint/cli': ^17.0.3
-  '@commitlint/config-conventional': ^17.0.3
-  '@commitlint/cz-commitlint': ^17.0.3
-  astro: ^1.0.0-rc.6
-  commitizen: ^4.2.5
-  husky: ^8.0.1
+  '@astrojs/vercel': 0.4.0
+  '@commitlint/cli': 17.0.3
+  '@commitlint/config-conventional': 17.0.3
+  '@commitlint/cz-commitlint': 17.0.3
+  astro: 1.0.0-rc.6
+  commitizen: 4.2.5
+  cz-conventional-changelog: 3.3.0
+  husky: 8.0.1
   inquirer: 8.1.0
-  standard-version: ^9.5.0
+  standard-version: 9.5.0
 
 dependencies:
   '@astrojs/vercel': 0.4.0
@@ -20,6 +21,7 @@ devDependencies:
   '@commitlint/cz-commitlint': 17.0.3_commitizen@4.2.5+inquirer@8.1.0
   astro: 1.0.0-rc.6
   commitizen: 4.2.5
+  cz-conventional-changelog: 3.3.0
   husky: 8.0.1
   inquirer: 8.1.0
   standard-version: 9.5.0
