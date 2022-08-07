@@ -6,10 +6,17 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "commit": "cz"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@commitlint/cz-commitlint": "^17.0.3",
     "astro": "^1.0.0-rc.6",
+    "commitizen": "^4.2.5",
+    "husky": "^8.0.1",
+    "inquirer": "8.1.0",
     "standard-version": "^9.5.0"
   },
   "dependencies": {
